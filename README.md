@@ -1,4 +1,4 @@
-App deployed via Surge at [Let's Meme](http://glib-waves.surge.sh/) 
+App deployed via Surge at [Let's Meme](https://flimsy-step.surge.sh/) 
 
 ## Future Additions
 * user adding their own template
