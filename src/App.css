@@ -16,7 +16,6 @@ html, body {
   background:black !important;
   color: #FFF;
   font: url('./fonts/impact.ttf');
-  border-radius: 100%;
   border: none !important;
   outline: none !important;
   width: 100%;
@@ -113,7 +112,6 @@ hr {
   min-width: 300px;
   background: black;
   min-height: 100vh;
-  margin-right: 7.5px;
   padding: 20px;
   max-width: 300px;
 }
@@ -130,9 +128,10 @@ hr {
 }
 
 .content {
+  background-color: black;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 10px;
+  padding: .5rem;
 }
 
 .meme-bottom-caption {
@@ -147,7 +146,7 @@ hr {
   padding: 5px;
   color: #fff;
   letter-spacing: 1px;
-  background: linear-gradient(to left, rgb(51, 51, 51), rgba(51, 51, 51, 0.81));
+  background: linear-gradient(to left, rgb(19, 6, 6), rgba(7, 1, 1, 0.81));
 }
 
 .meme-top-caption {
@@ -162,5 +161,5 @@ hr {
   padding: 5px;
   color: #fff;
   letter-spacing: 1px;
-  background: linear-gradient(to left, rgb(51, 51, 51), rgba(51, 51, 51, 0.81));
+  background: linear-gradient(to left, rgb(19, 6, 6), rgba(7, 1, 1, 0.81));
 }

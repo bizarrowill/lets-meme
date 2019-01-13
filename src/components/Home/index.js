@@ -174,20 +174,19 @@ class Home extends React.Component {
           <div className="sidebar">
             <NavbarBrand href="/">Let's Meme</NavbarBrand>
             <p>
-              You can add top and bottom text to a meme-template, move the text around and can save the image for your favorite meme stream: 
+              Customize your favorite meme with your latest take. You can edit the top/bottom, drag text, and save your new meme!<br/>
               <br/>
+              <a href="https://www.instagram.com/explore/tags/meme/?hl=en" rel="noopener noreferrer" target="_blank">Instagram</a>
               <br/>
-              <a href="https://www.instagram.com" rel="noopener noreferrer" target="_blank">Instagram</a>
+              <a href="https://www.twitter.com/hashtag/memes" rel="noopener noreferrer" target="_blank">Twitter</a>
               <br/>
-              <a href="https://www.twitter.com" rel="noopener noreferrer" target="_blank">Twitter</a>
-              <br/>
-              <a href="https://www.reddit.com" rel="noopener noreferrer" target="_blank">Reddit</a>
+              <a href="https://www.reddit.com/r/memes" rel="noopener noreferrer" target="_blank">Reddit</a>
             </p>
             <hr/>
             <p>Request A Meme: 
             <br/>
             Submit templates feature coming soon!</p>
-            <p>Inspired by: <a href="https://medium.freecodecamp.org/react-for-beginners-building-a-meme-maker-with-react-7164d3d3e55f"  rel="noopener noreferrer" target="_blank">this</a></p>
+            <p>for now send a request <a href="https://www.instagram.com/bizarrowill"  rel="noopener noreferrer" target="_blank">here</a></p>
           </div>
           <div className="content">
             {photos.map((image, index) => (
@@ -258,7 +257,7 @@ class Home extends React.Component {
                 <Label for="bottomtext">Bottom Text</Label>
                 <input className="form-control" type="text" name="bottomtext" id="bottomtext" placeholder="Add text to the bottom" onChange={this.changeText} />
               </FormGroup>
-              <button onClick={() => this.convertSvgToImage()} className="btn btn-primary">Download Meme!</button>
+              <button onClick={() => this.convertSvgToImage()} className="btn btn-primary">Save Meme</button>
             </div>
           </ModalBody>
         </Modal>
